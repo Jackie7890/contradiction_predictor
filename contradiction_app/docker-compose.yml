@@ -1,0 +1,8 @@
+version: "2"
+services:
+  contradiction_predictor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - /Users/jacquelynzuker/Desktop/Coding/contradiction_predictor/:/app
